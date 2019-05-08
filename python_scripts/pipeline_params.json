@@ -1,0 +1,18 @@
+{
+  "get_tweets":{
+      "consumer_key": "Your consumer key here",
+      "consumer_secret": "Your consumer secret key here",
+      "access_token": "Your access token here",
+      "access_token_secret": "Your access secret token here",
+      "search_words": "@Google",
+      "date_since": "2019-01-01",
+      "date_until": "2020-12-31" 
+  },  
+  "analyze":{
+      "key_words": ["Cloud", "GCP", "cloud", "gcp", "gke", "kubernetes"],
+      "automl_project": "no",
+      "automl_project_id": "If AutoML project is set to yes, Project ID goes here",
+      "automl_location_id": "If AutoML project is set to yes, Location ID goes here",
+      "automl_model_id": "If AutoML project is set to yes, Model ID goes here"
+  }
+}
